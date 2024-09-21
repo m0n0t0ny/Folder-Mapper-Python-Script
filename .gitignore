@@ -16,7 +16,10 @@ __init__.py
 .DS_Store
 
 # FMG app settings
-fmg_settings.json
+./fmg_settings.json
+
+# FMG Generated Folder Maps
+./FMG - Mapped Folders
 
 # Other
-desktop.ini
+./desktop.ini
