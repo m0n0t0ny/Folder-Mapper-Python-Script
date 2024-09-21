@@ -14,3 +14,9 @@ __init__.py
 .idea/
 *.swp
 .DS_Store
+
+# FMG app settings
+fmg_settings.json
+
+# Other
+desktop.ini
