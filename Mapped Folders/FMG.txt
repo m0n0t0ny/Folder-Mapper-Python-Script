@@ -1,0 +1,36 @@
+Mappa della Cartella: D:/FMG
+==================================================
+FMG/
+├── .gitignore
+├── fmg_settings.json
+├── FolderMapGenerator.py
+├── data/
+│   ├── changelog.py
+│   ├── __init__.py
+│   ├── __pycache__/
+│   │   ├── changelog.cpython-312.pyc
+│   │   └── __init__.cpython-312.pyc
+├── localization/
+│   ├── translations.py
+│   ├── __init__.py
+│   ├── __pycache__/
+│   │   ├── translations.cpython-312.pyc
+│   │   └── __init__.cpython-312.pyc
+├── Mapped Folders/
+│   └── FMG.txt
+├── ui/
+│   ├── components.py
+│   ├── main_window.py
+│   ├── __init__.py
+│   ├── __pycache__/
+│   │   ├── components.cpython-312.pyc
+│   │   ├── main_window.cpython-312.pyc
+│   │   └── __init__.cpython-312.pyc
+├── utils/
+│   ├── file_operations.py
+│   ├── settings.py
+│   ├── __init__.py
+│   ├── __pycache__/
+│   │   ├── file_operations.cpython-312.pyc
+│   │   ├── settings.cpython-312.pyc
+│   │   └── __init__.cpython-312.pyc
