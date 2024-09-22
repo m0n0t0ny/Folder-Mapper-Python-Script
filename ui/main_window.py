@@ -228,7 +228,7 @@ class FolderMapGenerator:
         link_frame.pack(fill=tk.X, side=tk.BOTTOM, pady=10)
         self.link_button = ttk.Label(
             link_frame,
-            text="Support the developer: Antonio Bertuccio",
+            text="☕ Support the Developer",
             cursor="hand2",
             foreground="blue",
             anchor="center",
