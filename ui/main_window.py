@@ -1,6 +1,9 @@
 import os
+import sys
+import subprocess
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
+import logging
 from PIL import Image, ImageTk
 from utils.file_operations import generate_file_hierarchy_threaded
 from utils.settings import load_settings, save_settings
@@ -12,7 +15,7 @@ class FolderMapGenerator:
         self.master = master
         self.master.title("FMG - Folder Map Generator")
         self.master.geometry("500x300")
-        self.master.resizable(False, False)  # Imposta una dimensione fissa
+        self.master.resizable(False, False)
 
         self.settings = self.load_settings()
         self.source_folder = tk.StringVar()
@@ -21,9 +24,13 @@ class FolderMapGenerator:
             value=self.settings.get("language", "English")
         )
         self.dark_mode = tk.BooleanVar(value=self.settings.get("dark_mode", False))
+        self.auto_open = tk.BooleanVar(value=True)
+        self.last_generated_file = None
+        print(f"Initial auto_open value: {self.auto_open.get()}")
 
         self.style = ttk.Style()
         self.icon_images = {}
+        self.center_frame = None
         self.load_icons()
         self.create_widgets()
         self.update_language()
@@ -35,9 +42,8 @@ class FolderMapGenerator:
         if not os.path.exists(self.default_output_path):
             os.makedirs(self.default_output_path)
 
-        # Aggiungi una barra di progresso
         self.progress_bar = ttk.Progressbar(
-            self.main_frame, orient=tk.HORIZONTAL, length=300, mode="determinate"
+            self.center_frame, orient=tk.HORIZONTAL, length=300, mode="determinate"
         )
         self.progress_bar.pack(pady=10, fill=tk.X)
         self.progress_bar.pack_forget()  # Nascondi inizialmente la barra di progresso
@@ -79,6 +85,10 @@ class FolderMapGenerator:
     def create_widgets(self):
         self.main_frame = ttk.Frame(self.master, padding="10")
         self.main_frame.pack(fill=tk.BOTH, expand=True)
+
+        # Crea il center_frame
+        self.center_frame = ttk.Frame(self.main_frame)
+        self.center_frame.pack(fill=tk.BOTH, expand=True)
 
         # Percorsi di default
         input_default = os.path.expandvars(r"%HOMEPATH%")
@@ -128,13 +138,17 @@ class FolderMapGenerator:
 
         # Map Folder button
         self.map_button = ttk.Button(
-            self.main_frame,
+            self.center_frame,
             text="Map Folder",
             command=self.generate_map,
-            image=self.icon_images.get("app_icon"),  # Use the app icon
+            image=self.icon_images.get("app_icon"),
             compound=tk.LEFT,
         )
         self.map_button.pack(pady=10, fill=tk.X)
+
+        # Frame per i nuovi pulsanti e la checkbox
+        self.actions_frame = ttk.Frame(self.main_frame)
+        self.actions_frame.pack(fill=tk.X, pady=(10, 0))
 
         # Frame inferiore per bottoni (!, ?, IT/EN, Modalità scura, Chiudi)
         bottom_frame = ttk.Frame(self.main_frame)
@@ -169,6 +183,35 @@ class FolderMapGenerator:
             command=self.toggle_dark_mode,
         )
         self.toggle_dark_mode_button.pack(side=tk.LEFT, padx=5)
+
+        # Frame per i nuovi pulsanti e la checkbox
+        actions_frame = ttk.Frame(self.center_frame)
+        actions_frame.pack(fill=tk.X, pady=(10, 0))
+
+        # Pulsante per aprire la cartella di output
+        self.open_output_button = ttk.Button(
+            self.actions_frame,
+            text="Open Output Folder",
+            command=self.open_output_folder,
+        )
+        self.open_output_button.pack(side=tk.LEFT, padx=(0, 5))
+
+        # Pulsante per aprire il file generato
+        self.open_file_button = ttk.Button(
+            self.actions_frame,
+            text="Open Generated File",
+            command=self.open_generated_file,
+        )
+        self.open_file_button.pack(side=tk.LEFT, padx=5)
+
+        # Checkbox per l'apertura automatica
+        self.auto_open_check = ttk.Checkbutton(
+            self.actions_frame,
+            text="Auto-open file on completion",
+            variable=self.auto_open,
+            command=self.update_auto_open,
+        )
+        self.auto_open_check.pack(side=tk.LEFT, padx=5)
 
         # Close button
         self.close_button = ttk.Button(
@@ -218,7 +261,11 @@ class FolderMapGenerator:
             self.output_folder.set(folder)
             print(f"Output folder selected: {folder}")
 
+    def update_auto_open(self):
+        print(f"Auto-open updated. New value: {self.auto_open.get()}")  # Debug print
+
     def generate_map(self):
+        print(f"Auto-open value at start: {self.auto_open.get()}")
         source_folder = self.source_folder.get() or self.default_input_path
         output_folder = self.output_folder.get() or self.default_output_path
 
@@ -237,6 +284,8 @@ class FolderMapGenerator:
             )
             counter += 1
 
+        self.last_generated_file = output_file  # Salva il percorso del file generato
+
         # Mostra la barra di progresso
         self.progress_bar.pack(pady=10, fill=tk.X)
         self.progress_bar["value"] = 0
@@ -246,12 +295,20 @@ class FolderMapGenerator:
             self.master.update_idletasks()
 
         def on_completion(success, error_message):
-            self.progress_bar.pack_forget()  # Nascondi la barra di progresso
+            self.progress_bar.pack_forget()
+            print(
+                f"Completion callback. Success: {success}, Auto-open value: {self.auto_open.get()}"
+            )  # Debug print
             if success:
                 messagebox.showinfo(
                     translations[self.current_language.get()]["success"],
                     f"{translations[self.current_language.get()]['map_generated']}\n{output_file}",
                 )
+                if self.auto_open.get():
+                    print(f"Attempting to open file: {self.last_generated_file}")
+                    self.open_generated_file()
+                else:
+                    print("Auto-open is not checked")
             else:
                 messagebox.showerror(
                     translations[self.current_language.get()]["error"],
@@ -266,6 +323,33 @@ class FolderMapGenerator:
             update_progress,
             on_completion,
         )
+
+    def open_output_folder(self):
+        output_folder = self.output_folder.get() or self.default_output_path
+        if os.path.exists(output_folder):
+            if sys.platform == "win32":
+                os.startfile(output_folder)
+            elif sys.platform == "darwin":  # macOS
+                subprocess.Popen(["open", output_folder])
+            else:  # linux variants
+                subprocess.Popen(["xdg-open", output_folder])
+        else:
+            messagebox.showerror("Error", "Output folder does not exist.")
+
+    def open_generated_file(self):
+        if self.last_generated_file and os.path.exists(self.last_generated_file):
+            print(f"Opening file: {self.last_generated_file}")  # Log per debug
+            if sys.platform == "win32":
+                os.startfile(self.last_generated_file)
+            elif sys.platform == "darwin":  # macOS
+                subprocess.Popen(["open", self.last_generated_file])
+            else:  # linux variants
+                subprocess.Popen(["xdg-open", self.last_generated_file])
+        else:
+            print(f"File not found: {self.last_generated_file}")  # Log per debug
+            messagebox.showerror(
+                "Error", "No file has been generated yet or the file does not exist."
+            )
 
     def show_changelog(self):
         # Logica per mostrare il changelog aggiornato
@@ -359,6 +443,9 @@ class FolderMapGenerator:
         webbrowser.open_new("https://ko-fi.com/antoniobertuccio")
 
 
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+
 # Set up logging
 def setup_logging(log_file="fmg_log.log"):
     logging.basicConfig(
@@ -378,7 +465,7 @@ def main():
         root.mainloop()
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}")
-        tk.messagebox.showerror("Error", f"An unexpected error occurred: {str(e)}")
+        messagebox.showerror("Error", f"An unexpected error occurred: {str(e)}")
 
 
 if __name__ == "__main__":
