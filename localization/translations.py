@@ -22,7 +22,10 @@ translations = {
         "settings": "Settings",
         "dark_mode": "Dark Mode",
         "apply": "Apply",
-        "user_guide": """
+        "user_guide": """,
+        'empty_folder': "The selected folder is empty.",
+        'empty_folder_error': "The selected folder is empty. Please choose a folder with content to map.",
+        'error_generating_map': "Error generating folder map"
 How to use FMG - Folder Map Generator:
 
 1. Select Input Folder: Click the "Select Input" button to choose the folder you want to map.
@@ -62,7 +65,10 @@ Additional Features:
         "settings": "Impostazioni",
         "dark_mode": "Modalità Scura",
         "apply": "Applica",
-        "user_guide": """
+        "user_guide": """,
+        'empty_folder': "La cartella selezionata è vuota.",
+        'empty_folder_error': "La cartella selezionata è vuota. Per favore, scegli una cartella con contenuto da mappare.",
+        'error_generating_map': "Errore nella generazione della mappa della cartella"
 Come usare FMG - Generatore Mappa Cartelle:
 
 1. Seleziona Cartella di Input: Clicca il pulsante "Seleziona Input" per scegliere la cartella da mappare.

@@ -1,7 +1,12 @@
 import os
 import threading
-import queue
-import logging
+import traceback
+
+
+class EmptyFolderError(Exception):
+    """Eccezione sollevata quando si tenta di mappare una cartella vuota."""
+
+    pass
 
 
 def generate_file_hierarchy(
@@ -11,6 +16,10 @@ def generate_file_hierarchy(
         total_items = sum(
             [len(files) + len(dirs) for _, dirs, files in os.walk(start_path)]
         )
+
+        if total_items == 0:
+            raise EmptyFolderError(translations[lang]["empty_folder_error"])
+
         processed_items = 0
 
         with open(output_file, "w", encoding="utf-8") as f:
@@ -35,10 +44,10 @@ def generate_file_hierarchy(
                     if progress_callback:
                         progress_callback(processed_items / total_items * 100)
 
-        logging.info(f"Folder map successfully generated at {output_file}.")
-    except Exception as e:
-        logging.error(f"Error generating folder hierarchy: {e}")
+    except EmptyFolderError as e:
         raise
+    except Exception as e:
+        raise Exception(f"{translations[lang]['error_generating_map']}: {str(e)}")
 
 
 def generate_file_hierarchy_threaded(
@@ -56,9 +65,14 @@ def generate_file_hierarchy_threaded(
             )
             if completion_callback:
                 completion_callback(True, None)
-        except Exception as e:
+        except EmptyFolderError as e:
             if completion_callback:
                 completion_callback(False, str(e))
+        except Exception as e:
+            if completion_callback:
+                completion_callback(
+                    False, f"{translations[lang]['error_generating_map']}: {str(e)}"
+                )
 
     thread = threading.Thread(target=target)
     thread.start()
