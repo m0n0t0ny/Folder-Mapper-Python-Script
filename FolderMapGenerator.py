@@ -1,6 +1,7 @@
 import os
 import sys
 import tkinter as tk
+from tkinter import messagebox
 import logging
 from ui.main_window import FolderMapGenerator
 
@@ -24,7 +25,7 @@ def main():
         root.mainloop()
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}")
-        tk.messagebox.showerror("Error", f"An unexpected error occurred: {str(e)}")
+        messagebox.showerror("Error", f"An unexpected error occurred: {str(e)}")
 
 
 if __name__ == "__main__":
