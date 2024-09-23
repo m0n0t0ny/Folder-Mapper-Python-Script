@@ -22,4 +22,7 @@ __init__.py
 ./Mapped Folders/*
 
 # Other
-desktop.ini
+./desktop.ini
+
+# Installer
+./installer.py
