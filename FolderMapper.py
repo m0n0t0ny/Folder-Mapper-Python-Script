@@ -3,12 +3,12 @@ import sys
 import tkinter as tk
 from tkinter import messagebox
 import logging
-from ui.main_window import FolderMapGenerator
+from ui.main_window import FolderMapper
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 
-def setup_logging(log_file="fmg_log.log"):
+def setup_logging(log_file="folder_mapper_log.log"):
     logging.basicConfig(
         filename=log_file,
         level=logging.DEBUG,
@@ -21,7 +21,7 @@ def main():
     setup_logging()  # Initialize logging
     try:
         root = tk.Tk()
-        app = FolderMapGenerator(root)
+        app = FolderMapper(root)
         root.mainloop()
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}")

@@ -1,0 +1,1132 @@
+Mappa della Cartella: C:/Users/antob/AndroidStudioProjects
+==================================================
+AndroidStudioProjects/
+├── widgettoday/
+│   ├── .gitignore
+│   ├── build.gradle.kts
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   ├── local.properties
+│   ├── settings.gradle.kts
+│   ├── .gradle/
+│   │   ├── config.properties
+│   │   ├── file-system.probe
+│   │   ├── 8.6/
+│   │   │   ├── gc.properties
+│   │   │   ├── checksums/
+│   │   │   │   ├── checksums.lock
+│   │   │   │   ├── md5-checksums.bin
+│   │   │   │   └── sha1-checksums.bin
+│   │   │   ├── dependencies-accessors/
+│   │   │   │   ├── gc.properties
+│   │   │   │   ├── 50a1aebeb6cbc19102ac6abe4432384ab5d1ca9c/
+│   │   │   │   │   ├── metadata.bin
+│   │   │   │   │   ├── classes/
+│   │   │   │   │   │   ├── org/
+│   │   │   │   │   │   │   ├── gradle/
+│   │   │   │   │   │   │   │   ├── accessors/
+│   │   │   │   │   │   │   │   │   ├── dm/
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxActivityLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxComposeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxCoreLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxEspressoLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLifecycleLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLifecycleRuntimeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiTestLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiToolingLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$BundleAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$JetbrainsKotlinPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$JetbrainsPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$PluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$VersionAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxActivityLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxComposeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxCoreLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxEspressoLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLifecycleLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLifecycleRuntimeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiTestLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiToolingLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$BundleAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$JetbrainsKotlinPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$JetbrainsPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$PluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$VersionAccessors.class
+│   │   │   │   │   │   │   │   │   │   └── LibrariesForLibsInPluginsBlock.class
+│   │   │   │   │   ├── sources/
+│   │   │   │   │   │   ├── org/
+│   │   │   │   │   │   │   ├── gradle/
+│   │   │   │   │   │   │   │   ├── accessors/
+│   │   │   │   │   │   │   │   │   ├── dm/
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs.java
+│   │   │   │   │   │   │   │   │   │   └── LibrariesForLibsInPluginsBlock.java
+│   │   │   │   ├── 709c73aeaf1251040dc654bb42a8bfda48f7fba3/
+│   │   │   │   │   ├── metadata.bin
+│   │   │   │   │   ├── classes/
+│   │   │   │   │   │   ├── org/
+│   │   │   │   │   │   │   ├── gradle/
+│   │   │   │   │   │   │   │   ├── accessors/
+│   │   │   │   │   │   │   │   │   ├── dm/
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxActivityLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxComposeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxCoreLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxEspressoLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLifecycleLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLifecycleRuntimeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiTestLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiToolingLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$BundleAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$JetbrainsKotlinPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$JetbrainsPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$PluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$VersionAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxActivityLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxComposeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxCoreLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxEspressoLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLifecycleLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLifecycleRuntimeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiTestLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiToolingLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$BundleAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$JetbrainsKotlinPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$JetbrainsPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$PluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$VersionAccessors.class
+│   │   │   │   │   │   │   │   │   │   └── LibrariesForLibsInPluginsBlock.class
+│   │   │   │   │   ├── sources/
+│   │   │   │   │   │   ├── org/
+│   │   │   │   │   │   │   ├── gradle/
+│   │   │   │   │   │   │   │   ├── accessors/
+│   │   │   │   │   │   │   │   │   ├── dm/
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs.java
+│   │   │   │   │   │   │   │   │   │   └── LibrariesForLibsInPluginsBlock.java
+│   │   │   │   ├── 821b8abbf30864a28803c5a4e54a7383a7356188/
+│   │   │   │   │   ├── metadata.bin
+│   │   │   │   │   ├── classes/
+│   │   │   │   │   │   ├── org/
+│   │   │   │   │   │   │   ├── gradle/
+│   │   │   │   │   │   │   │   ├── accessors/
+│   │   │   │   │   │   │   │   │   ├── dm/
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxActivityLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxComposeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxCoreLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxEspressoLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLifecycleLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLifecycleRuntimeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiTestLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiToolingLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$BundleAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$JetbrainsKotlinPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$JetbrainsPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$PluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$VersionAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxActivityLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxComposeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxCoreLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxEspressoLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLifecycleLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLifecycleRuntimeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiTestLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiToolingLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$BundleAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$JetbrainsKotlinPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$JetbrainsPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$PluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$VersionAccessors.class
+│   │   │   │   │   │   │   │   │   │   └── LibrariesForLibsInPluginsBlock.class
+│   │   │   │   │   ├── sources/
+│   │   │   │   │   │   ├── org/
+│   │   │   │   │   │   │   ├── gradle/
+│   │   │   │   │   │   │   │   ├── accessors/
+│   │   │   │   │   │   │   │   │   ├── dm/
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs.java
+│   │   │   │   │   │   │   │   │   │   └── LibrariesForLibsInPluginsBlock.java
+│   │   │   │   ├── dcbcd87108cec70bb467e05d5172bee8efb944af/
+│   │   │   │   │   ├── metadata.bin
+│   │   │   │   │   ├── classes/
+│   │   │   │   │   │   ├── org/
+│   │   │   │   │   │   │   ├── gradle/
+│   │   │   │   │   │   │   │   ├── accessors/
+│   │   │   │   │   │   │   │   │   ├── dm/
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxActivityLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxComposeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxCoreLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxEspressoLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLifecycleLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxLifecycleRuntimeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiTestLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$AndroidxUiToolingLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$BundleAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$JetbrainsKotlinPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$JetbrainsPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$PluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs$VersionAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxActivityLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxComposeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxCoreLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxEspressoLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLifecycleLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxLifecycleRuntimeLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiTestLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$AndroidxUiToolingLibraryAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$BundleAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$JetbrainsKotlinPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$JetbrainsPluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$PluginAccessors.class
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibsInPluginsBlock$VersionAccessors.class
+│   │   │   │   │   │   │   │   │   │   └── LibrariesForLibsInPluginsBlock.class
+│   │   │   │   │   ├── sources/
+│   │   │   │   │   │   ├── org/
+│   │   │   │   │   │   │   ├── gradle/
+│   │   │   │   │   │   │   │   ├── accessors/
+│   │   │   │   │   │   │   │   │   ├── dm/
+│   │   │   │   │   │   │   │   │   │   ├── LibrariesForLibs.java
+│   │   │   │   │   │   │   │   │   │   └── LibrariesForLibsInPluginsBlock.java
+│   │   │   ├── executionHistory/
+│   │   │   │   ├── executionHistory.bin
+│   │   │   │   └── executionHistory.lock
+│   │   │   ├── fileChanges/
+│   │   │   │   └── last-build.bin
+│   │   │   ├── fileHashes/
+│   │   │   │   ├── fileHashes.bin
+│   │   │   │   ├── fileHashes.lock
+│   │   │   │   └── resourceHashesCache.bin
+│   │   │   ├── vcsMetadata/
+│   │   ├── buildOutputCleanup/
+│   │   │   ├── buildOutputCleanup.lock
+│   │   │   ├── cache.properties
+│   │   │   └── outputFiles.bin
+│   │   ├── kotlin/
+│   │   │   ├── errors/
+│   │   │   ├── sessions/
+│   │   ├── vcs-1/
+│   │   │   └── gc.properties
+│   ├── .idea/
+│   │   ├── .gitignore
+│   │   ├── compiler.xml
+│   │   ├── deploymentTargetSelector.xml
+│   │   ├── gradle.xml
+│   │   ├── kotlinc.xml
+│   │   ├── migrations.xml
+│   │   ├── misc.xml
+│   │   ├── workspace.xml
+│   │   ├── inspectionProfiles/
+│   │   │   └── Project_Default.xml
+│   ├── app/
+│   │   ├── .gitignore
+│   │   ├── build.gradle.kts
+│   │   ├── proguard-rules.pro
+│   │   ├── build/
+│   │   │   ├── generated/
+│   │   │   │   ├── ap_generated_sources/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── out/
+│   │   │   │   ├── res/
+│   │   │   │   │   ├── pngs/
+│   │   │   │   │   │   ├── debug/
+│   │   │   │   │   ├── resValues/
+│   │   │   │   │   │   ├── debug/
+│   │   │   ├── intermediates/
+│   │   │   │   ├── aar_metadata_check/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── checkDebugAarMetadata/
+│   │   │   │   ├── annotation_processor_list/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── javaPreCompileDebug/
+│   │   │   │   │   │   │   └── annotationProcessors.json
+│   │   │   │   ├── apk/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── app-debug.apk
+│   │   │   │   │   │   └── output-metadata.json
+│   │   │   │   ├── apk_ide_redirect_file/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── createDebugApkListingFileRedirect/
+│   │   │   │   │   │   │   └── redirect.txt
+│   │   │   │   ├── app_metadata/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── writeDebugAppMetadata/
+│   │   │   │   │   │   │   └── app-metadata.properties
+│   │   │   │   ├── assets/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mergeDebugAssets/
+│   │   │   │   ├── compatible_screen_manifest/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── createDebugCompatibleScreenManifests/
+│   │   │   │   │   │   │   └── output-metadata.json
+│   │   │   │   ├── compile_and_runtime_not_namespaced_r_class_jar/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── processDebugResources/
+│   │   │   │   │   │   │   └── R.jar
+│   │   │   │   ├── compressed_assets/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── compressDebugAssets/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   ├── data_binding_layout_info_type_merge/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mergeDebugResources/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   ├── data_binding_layout_info_type_package/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── packageDebugResources/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   ├── desugar_graph/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── dexBuilderDebug/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   │   │   │   │   ├── currentProject/
+│   │   │   │   │   │   │   │   │   ├── dirs_bucket_0/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── dirs_bucket_1/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── dirs_bucket_2/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── dirs_bucket_3/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── dirs_bucket_4/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── dirs_bucket_5/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── dirs_bucket_6/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── dirs_bucket_7/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── jar_6b9f39949a2a89ffba4a5204ae8f594d8829cd8ac62042b9a00d6a6c2578bc66_bucket_0/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── jar_6b9f39949a2a89ffba4a5204ae8f594d8829cd8ac62042b9a00d6a6c2578bc66_bucket_1/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── jar_6b9f39949a2a89ffba4a5204ae8f594d8829cd8ac62042b9a00d6a6c2578bc66_bucket_2/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── jar_6b9f39949a2a89ffba4a5204ae8f594d8829cd8ac62042b9a00d6a6c2578bc66_bucket_3/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── jar_6b9f39949a2a89ffba4a5204ae8f594d8829cd8ac62042b9a00d6a6c2578bc66_bucket_4/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── jar_6b9f39949a2a89ffba4a5204ae8f594d8829cd8ac62042b9a00d6a6c2578bc66_bucket_5/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── jar_6b9f39949a2a89ffba4a5204ae8f594d8829cd8ac62042b9a00d6a6c2578bc66_bucket_6/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   │   ├── jar_6b9f39949a2a89ffba4a5204ae8f594d8829cd8ac62042b9a00d6a6c2578bc66_bucket_7/
+│   │   │   │   │   │   │   │   │   │   └── graph.bin
+│   │   │   │   │   │   │   │   ├── externalLibs/
+│   │   │   │   │   │   │   │   ├── mixedScopes/
+│   │   │   │   │   │   │   │   ├── otherProjects/
+│   │   │   │   ├── dex/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mergeExtDexDebug/
+│   │   │   │   │   │   │   ├── classes.dex
+│   │   │   │   │   │   │   └── classes2.dex
+│   │   │   │   │   │   ├── mergeLibDexDebug/
+│   │   │   │   │   │   │   ├── 0/
+│   │   │   │   │   │   │   ├── 1/
+│   │   │   │   │   │   │   ├── 10/
+│   │   │   │   │   │   │   ├── 11/
+│   │   │   │   │   │   │   ├── 12/
+│   │   │   │   │   │   │   ├── 13/
+│   │   │   │   │   │   │   ├── 14/
+│   │   │   │   │   │   │   ├── 15/
+│   │   │   │   │   │   │   ├── 2/
+│   │   │   │   │   │   │   ├── 3/
+│   │   │   │   │   │   │   ├── 4/
+│   │   │   │   │   │   │   ├── 5/
+│   │   │   │   │   │   │   ├── 6/
+│   │   │   │   │   │   │   ├── 7/
+│   │   │   │   │   │   │   ├── 8/
+│   │   │   │   │   │   │   ├── 9/
+│   │   │   │   │   │   ├── mergeProjectDexDebug/
+│   │   │   │   │   │   │   ├── 0/
+│   │   │   │   │   │   │   │   └── classes.dex
+│   │   │   │   │   │   │   ├── 1/
+│   │   │   │   │   │   │   ├── 10/
+│   │   │   │   │   │   │   │   └── classes.dex
+│   │   │   │   │   │   │   ├── 11/
+│   │   │   │   │   │   │   ├── 12/
+│   │   │   │   │   │   │   ├── 13/
+│   │   │   │   │   │   │   ├── 14/
+│   │   │   │   │   │   │   ├── 15/
+│   │   │   │   │   │   │   ├── 2/
+│   │   │   │   │   │   │   ├── 3/
+│   │   │   │   │   │   │   ├── 4/
+│   │   │   │   │   │   │   ├── 5/
+│   │   │   │   │   │   │   ├── 6/
+│   │   │   │   │   │   │   ├── 7/
+│   │   │   │   │   │   │   ├── 8/
+│   │   │   │   │   │   │   ├── 9/
+│   │   │   │   │   │   │   │   └── classes.dex
+│   │   │   │   ├── dex_archive_input_jar_hashes/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── dexBuilderDebug/
+│   │   │   │   │   │   │   └── out
+│   │   │   │   ├── dex_number_of_buckets_file/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── dexBuilderDebug/
+│   │   │   │   │   │   │   └── out
+│   │   │   │   ├── duplicate_classes_check/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── checkDebugDuplicateClasses/
+│   │   │   │   ├── external_file_lib_dex_archives/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── desugarDebugFileDependencies/
+│   │   │   │   ├── external_libs_dex_archive/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── dexBuilderDebug/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   ├── external_libs_dex_archive_with_artifact_transforms/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── dexBuilderDebug/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   ├── incremental/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mergeDebugResources/
+│   │   │   │   │   │   │   ├── compile-file-map.properties
+│   │   │   │   │   │   │   ├── merger.xml
+│   │   │   │   │   │   │   ├── merged.dir/
+│   │   │   │   │   │   │   ├── stripped.dir/
+│   │   │   │   │   │   ├── packageDebugResources/
+│   │   │   │   │   │   │   ├── compile-file-map.properties
+│   │   │   │   │   │   │   ├── merger.xml
+│   │   │   │   │   │   │   ├── merged.dir/
+│   │   │   │   │   │   │   │   ├── values/
+│   │   │   │   │   │   │   │   │   └── values.xml
+│   │   │   │   │   │   │   ├── stripped.dir/
+│   │   │   │   │   ├── debug-mergeJavaRes/
+│   │   │   │   │   │   ├── merge-state
+│   │   │   │   │   │   ├── zip-cache/
+│   │   │   │   │   │   │   ├── +G6C7fUEr4RJmS0c6eGxgvGTF9w=
+│   │   │   │   │   │   │   ├── +l4wFpocnX7SUfSanS09ziRdSqE=
+│   │   │   │   │   │   │   ├── 14Q9+yuWKJ3JAMMZKaC84eqA8ck=
+│   │   │   │   │   │   │   ├── 1QbOZ3TuxpsEllGODbS2ABbl8Vc=
+│   │   │   │   │   │   │   ├── 1t0gHne8eWhdWnMZ50+4oiIrZ74=
+│   │   │   │   │   │   │   ├── 26dgBx9NNHiNQ+sJowQ_0i9yd0s=
+│   │   │   │   │   │   │   ├── 2AZmJKJsgnsHtakqsjYWo38QKwM=
+│   │   │   │   │   │   │   ├── 2sVFM_gN2P0QxME85x7ogOtzIbA=
+│   │   │   │   │   │   │   ├── 2YBBqfxu4x5EKQyxmSsoalWJBQc=
+│   │   │   │   │   │   │   ├── 3jtd2evvVI2m2AWbYFWJeX3KsrQ=
+│   │   │   │   │   │   │   ├── 3_yrhK3dwGI3QRYf8MnOWy0crkE=
+│   │   │   │   │   │   │   ├── 4itM5LJ5GDzQTbJayfSbRR6dyqc=
+│   │   │   │   │   │   │   ├── 5eH2MdfZkfZYmr5IhRz6r87wL8s=
+│   │   │   │   │   │   │   ├── 6E_3BV4jMgSjQAEVz26QABAo1hA=
+│   │   │   │   │   │   │   ├── 87Z9OKEmj5FTA_PRKU416WUvPkk=
+│   │   │   │   │   │   │   ├── 8pSWvIyxCTcVXozcoTfDdnTzses=
+│   │   │   │   │   │   │   ├── 936+tCZswFNkY6kRUl7Oa772kA4=
+│   │   │   │   │   │   │   ├── 9kbKk0hMP+XV2Cd_1ICKbm5M_6s=
+│   │   │   │   │   │   │   ├── b7kc90ppyQPxWCol8xEAp5yREAU=
+│   │   │   │   │   │   │   ├── BCiVHBI3LWjZwWuivHBSew1BPbA=
+│   │   │   │   │   │   │   ├── C1xdky+8CgHBeylNTZjhi8n67Uo=
+│   │   │   │   │   │   │   ├── caVdVPMKItc_S9DNhu1I9VnVI7s=
+│   │   │   │   │   │   │   ├── CHuuFebJZZvxMVNbMXwA7uZCPDs=
+│   │   │   │   │   │   │   ├── dAwt2oCSLyGE5y7ClDSIqscoKn0=
+│   │   │   │   │   │   │   ├── DNYSpu515MenG5WpwlQ8hQ+9E0Q=
+│   │   │   │   │   │   │   ├── EoXLCy9wTdRn6tD0eS6POAOY4EM=
+│   │   │   │   │   │   │   ├── FkjJ28pF04bFr4yfVcaajkbEHI0=
+│   │   │   │   │   │   │   ├── fo8YX9B7gBOsHmqFwkEoX7x1ymU=
+│   │   │   │   │   │   │   ├── GLyCav7nrInoFRzQOtZpfjyn2T0=
+│   │   │   │   │   │   │   ├── H4BKyqWtjdY2_agWadVaBAwE4zg=
+│   │   │   │   │   │   │   ├── h9ZSxBHgAMBabUCFOd5gcw68u6w=
+│   │   │   │   │   │   │   ├── HFCldHj1g4l+hUXt0+sKCGrnBW0=
+│   │   │   │   │   │   │   ├── HVUd2vJxoZ2yxzxDCqP2wgWSEXo=
+│   │   │   │   │   │   │   ├── jWyPvHZ_omeJIPkisHNW0wQWsUI=
+│   │   │   │   │   │   │   ├── k16PhA1DYN4Lsh7PXISIJE9sAmk=
+│   │   │   │   │   │   │   ├── krAklNmGVKEuPI3zX_U8gfCAuXM=
+│   │   │   │   │   │   │   ├── KsWS9DO9O4pKkWLJU6LBp_pghIw=
+│   │   │   │   │   │   │   ├── KtCh5W2Y2V+sUi4+rXggqJxemMk=
+│   │   │   │   │   │   │   ├── LD3NMoIvtL8RQSo1RPnpf8NUtEY=
+│   │   │   │   │   │   │   ├── lE6MV5JNBP3CDAvcBXLX2HONpSM=
+│   │   │   │   │   │   │   ├── m8wsk1PKQaZ+NfkvwIlBnNYj8nU=
+│   │   │   │   │   │   │   ├── MitELZcRn5+BhDzTfxXONY+tofQ=
+│   │   │   │   │   │   │   ├── mtYEu9EY_FD4zKr4_6UfjufZoX8=
+│   │   │   │   │   │   │   ├── MZLZgAak4k8_f4h4se16_UZtJxk=
+│   │   │   │   │   │   │   ├── N96OURS2eCjOU50AU9y92SCVcCg=
+│   │   │   │   │   │   │   ├── nNSa+Bk9aJ9j5+rC3I3Fk8IaHBE=
+│   │   │   │   │   │   │   ├── o02GXqR9_k4rhnI_txJYJak5cUY=
+│   │   │   │   │   │   │   ├── oFWsLfOTumdScCwjWXUtZnpPWRU=
+│   │   │   │   │   │   │   ├── PdFmWieYt5mYNl48a0pz+jUGSaY=
+│   │   │   │   │   │   │   ├── PFUZ2dtsAa1MneRVHbi5N3+mLTQ=
+│   │   │   │   │   │   │   ├── qgl+ICg9rJglLbaQuBsqbbINumk=
+│   │   │   │   │   │   │   ├── QYtNVKAgaGD2Er_Odt_2itd1J2s=
+│   │   │   │   │   │   │   ├── QYyV7Ixag+hHtoeXJzjjWV4pCa8=
+│   │   │   │   │   │   │   ├── reiPccVbyb2iy4B3ZlkChQfe+nw=
+│   │   │   │   │   │   │   ├── Rm_vYGgPpj3LRYuAi5sa75yB_gk=
+│   │   │   │   │   │   │   ├── rP04lZejirvbmKtiDo2RexRO4u4=
+│   │   │   │   │   │   │   ├── rVdQwtNsbqk4KDvRSKzFE09mGWc=
+│   │   │   │   │   │   │   ├── RZi8pOB2jeI_Dom0SRjZf+6qNbU=
+│   │   │   │   │   │   │   ├── rzr4AL45TXK9jGBD3nZ42FgU9Ak=
+│   │   │   │   │   │   │   ├── TFYmGUDjfElwmHjKbodHvlf1H0A=
+│   │   │   │   │   │   │   ├── Tk5N3jmYT+uCa40V1CtEUbGXo5s=
+│   │   │   │   │   │   │   ├── tVlLlzGuStX9wVJIoq3Xp1FgOo4=
+│   │   │   │   │   │   │   ├── tXpixsJSSIVauC9Dta1Hirz_TAY=
+│   │   │   │   │   │   │   ├── tyqzwujhbzKWrnRcVGOUEzLXxuE=
+│   │   │   │   │   │   │   ├── u2YKcJarzhVvXcpM67VvA6O44+w=
+│   │   │   │   │   │   │   ├── W5MWcKk6nF3yt5sveeDUreeq8vM=
+│   │   │   │   │   │   │   ├── WLY_OMp_cHvhCJ7HGc2pE7MtW_E=
+│   │   │   │   │   │   │   ├── X8z34angPE2iT0yI8hIektEqYqo=
+│   │   │   │   │   │   │   ├── xULD5yGccmEuRbDXGpGZlfY7JNk=
+│   │   │   │   │   │   │   ├── XyAOVgR6xIGBuK2yh356QPycnrA=
+│   │   │   │   │   │   │   ├── YMhu6ll66pq8OLvPuhG0z6mSDOw=
+│   │   │   │   │   │   │   ├── Yv4ird6e8PSchuO3YZ3HG8RJGNQ=
+│   │   │   │   │   │   │   ├── Z8u5+G8nPm0imNyldk8RnC5QZ8o=
+│   │   │   │   │   │   │   └── ZKcm4yvPrRwOfmmJ4evHIBFNYdI=
+│   │   │   │   │   ├── mergeDebugAssets/
+│   │   │   │   │   │   └── merger.xml
+│   │   │   │   │   ├── mergeDebugJniLibFolders/
+│   │   │   │   │   │   └── merger.xml
+│   │   │   │   │   ├── mergeDebugShaders/
+│   │   │   │   │   │   └── merger.xml
+│   │   │   │   │   ├── packageDebug/
+│   │   │   │   │   │   ├── tmp/
+│   │   │   │   │   │   │   ├── debug/
+│   │   │   │   │   │   │   │   ├── dex-renamer-state.txt
+│   │   │   │   │   │   │   │   ├── zip-cache/
+│   │   │   │   │   │   │   │   │   ├── androidResources
+│   │   │   │   │   │   │   │   │   └── javaResources0
+│   │   │   │   │   ├── processDebugResources/
+│   │   │   │   │   │   └── resources-list-for-resources-debug.ap_.txt
+│   │   │   │   ├── javac/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── compileDebugJavaWithJavac/
+│   │   │   │   │   │   │   ├── classes/
+│   │   │   │   │   │   │   │   ├── com/
+│   │   │   │   │   │   │   │   │   ├── example/
+│   │   │   │   │   │   │   │   │   │   ├── widgettoday/
+│   │   │   │   │   │   │   │   │   │   │   └── WidgetToday.class
+│   │   │   │   ├── java_res/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── processDebugJavaRes/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   │   │   │   │   ├── com/
+│   │   │   │   │   │   │   │   │   ├── example/
+│   │   │   │   │   │   │   │   │   │   ├── widgettoday/
+│   │   │   │   │   │   │   │   │   │   │   ├── ui/
+│   │   │   │   │   │   │   │   │   │   │   │   ├── theme/
+│   │   │   │   │   │   │   │   ├── META-INF/
+│   │   │   │   │   │   │   │   │   └── app_debug.kotlin_module
+│   │   │   │   ├── local_only_symbol_list/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── parseDebugLocalResources/
+│   │   │   │   │   │   │   └── R-def.txt
+│   │   │   │   ├── manifest_merge_blame_file/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── processDebugMainManifest/
+│   │   │   │   │   │   │   └── manifest-merger-blame-debug-report.txt
+│   │   │   │   ├── merged_java_res/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mergeDebugJavaResource/
+│   │   │   │   │   │   │   └── base.jar
+│   │   │   │   ├── merged_jni_libs/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mergeDebugJniLibFolders/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   ├── merged_manifest/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── processDebugMainManifest/
+│   │   │   │   │   │   │   └── AndroidManifest.xml
+│   │   │   │   ├── merged_manifests/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── processDebugManifest/
+│   │   │   │   │   │   │   ├── AndroidManifest.xml
+│   │   │   │   │   │   │   └── output-metadata.json
+│   │   │   │   ├── merged_res/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mergeDebugResources/
+│   │   │   │   │   │   │   ├── drawable-v24_ic_launcher_foreground.xml.flat
+│   │   │   │   │   │   │   ├── drawable_ic_launcher_background.xml.flat
+│   │   │   │   │   │   │   ├── layout_activity_settings.xml.flat
+│   │   │   │   │   │   │   ├── layout_dialog_color_picker.xml.flat
+│   │   │   │   │   │   │   ├── layout_widget_layout.xml.flat
+│   │   │   │   │   │   │   ├── mipmap-anydpi-v26_ic_launcher.xml.flat
+│   │   │   │   │   │   │   ├── mipmap-anydpi-v26_ic_launcher_round.xml.flat
+│   │   │   │   │   │   │   ├── mipmap-hdpi_ic_launcher.webp.flat
+│   │   │   │   │   │   │   ├── mipmap-hdpi_ic_launcher_round.webp.flat
+│   │   │   │   │   │   │   ├── mipmap-mdpi_ic_launcher.webp.flat
+│   │   │   │   │   │   │   ├── mipmap-mdpi_ic_launcher_round.webp.flat
+│   │   │   │   │   │   │   ├── mipmap-xhdpi_ic_launcher.webp.flat
+│   │   │   │   │   │   │   ├── mipmap-xhdpi_ic_launcher_round.webp.flat
+│   │   │   │   │   │   │   ├── mipmap-xxhdpi_ic_launcher.webp.flat
+│   │   │   │   │   │   │   ├── mipmap-xxhdpi_ic_launcher_round.webp.flat
+│   │   │   │   │   │   │   ├── mipmap-xxxhdpi_ic_launcher.webp.flat
+│   │   │   │   │   │   │   ├── mipmap-xxxhdpi_ic_launcher_round.webp.flat
+│   │   │   │   │   │   │   ├── values-af_values-af.arsc.flat
+│   │   │   │   │   │   │   ├── values-am_values-am.arsc.flat
+│   │   │   │   │   │   │   ├── values-ar_values-ar.arsc.flat
+│   │   │   │   │   │   │   ├── values-as_values-as.arsc.flat
+│   │   │   │   │   │   │   ├── values-az_values-az.arsc.flat
+│   │   │   │   │   │   │   ├── values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+│   │   │   │   │   │   │   ├── values-be_values-be.arsc.flat
+│   │   │   │   │   │   │   ├── values-bg_values-bg.arsc.flat
+│   │   │   │   │   │   │   ├── values-bn_values-bn.arsc.flat
+│   │   │   │   │   │   │   ├── values-bs_values-bs.arsc.flat
+│   │   │   │   │   │   │   ├── values-ca_values-ca.arsc.flat
+│   │   │   │   │   │   │   ├── values-cs_values-cs.arsc.flat
+│   │   │   │   │   │   │   ├── values-da_values-da.arsc.flat
+│   │   │   │   │   │   │   ├── values-de_values-de.arsc.flat
+│   │   │   │   │   │   │   ├── values-el_values-el.arsc.flat
+│   │   │   │   │   │   │   ├── values-en-rAU_values-en-rAU.arsc.flat
+│   │   │   │   │   │   │   ├── values-en-rCA_values-en-rCA.arsc.flat
+│   │   │   │   │   │   │   ├── values-en-rGB_values-en-rGB.arsc.flat
+│   │   │   │   │   │   │   ├── values-en-rIN_values-en-rIN.arsc.flat
+│   │   │   │   │   │   │   ├── values-en-rXC_values-en-rXC.arsc.flat
+│   │   │   │   │   │   │   ├── values-es-rUS_values-es-rUS.arsc.flat
+│   │   │   │   │   │   │   ├── values-es_values-es.arsc.flat
+│   │   │   │   │   │   │   ├── values-et_values-et.arsc.flat
+│   │   │   │   │   │   │   ├── values-eu_values-eu.arsc.flat
+│   │   │   │   │   │   │   ├── values-fa_values-fa.arsc.flat
+│   │   │   │   │   │   │   ├── values-fi_values-fi.arsc.flat
+│   │   │   │   │   │   │   ├── values-fr-rCA_values-fr-rCA.arsc.flat
+│   │   │   │   │   │   │   ├── values-fr_values-fr.arsc.flat
+│   │   │   │   │   │   │   ├── values-gl_values-gl.arsc.flat
+│   │   │   │   │   │   │   ├── values-gu_values-gu.arsc.flat
+│   │   │   │   │   │   │   ├── values-h720dp-v13_values-h720dp-v13.arsc.flat
+│   │   │   │   │   │   │   ├── values-hdpi-v4_values-hdpi-v4.arsc.flat
+│   │   │   │   │   │   │   ├── values-hi_values-hi.arsc.flat
+│   │   │   │   │   │   │   ├── values-hr_values-hr.arsc.flat
+│   │   │   │   │   │   │   ├── values-hu_values-hu.arsc.flat
+│   │   │   │   │   │   │   ├── values-hy_values-hy.arsc.flat
+│   │   │   │   │   │   │   ├── values-in_values-in.arsc.flat
+│   │   │   │   │   │   │   ├── values-is_values-is.arsc.flat
+│   │   │   │   │   │   │   ├── values-it_values-it.arsc.flat
+│   │   │   │   │   │   │   ├── values-iw_values-iw.arsc.flat
+│   │   │   │   │   │   │   ├── values-ja_values-ja.arsc.flat
+│   │   │   │   │   │   │   ├── values-ka_values-ka.arsc.flat
+│   │   │   │   │   │   │   ├── values-kk_values-kk.arsc.flat
+│   │   │   │   │   │   │   ├── values-km_values-km.arsc.flat
+│   │   │   │   │   │   │   ├── values-kn_values-kn.arsc.flat
+│   │   │   │   │   │   │   ├── values-ko_values-ko.arsc.flat
+│   │   │   │   │   │   │   ├── values-ky_values-ky.arsc.flat
+│   │   │   │   │   │   │   ├── values-land_values-land.arsc.flat
+│   │   │   │   │   │   │   ├── values-large-v4_values-large-v4.arsc.flat
+│   │   │   │   │   │   │   ├── values-ldltr-v21_values-ldltr-v21.arsc.flat
+│   │   │   │   │   │   │   ├── values-lo_values-lo.arsc.flat
+│   │   │   │   │   │   │   ├── values-lt_values-lt.arsc.flat
+│   │   │   │   │   │   │   ├── values-lv_values-lv.arsc.flat
+│   │   │   │   │   │   │   ├── values-mk_values-mk.arsc.flat
+│   │   │   │   │   │   │   ├── values-ml_values-ml.arsc.flat
+│   │   │   │   │   │   │   ├── values-mn_values-mn.arsc.flat
+│   │   │   │   │   │   │   ├── values-mr_values-mr.arsc.flat
+│   │   │   │   │   │   │   ├── values-ms_values-ms.arsc.flat
+│   │   │   │   │   │   │   ├── values-my_values-my.arsc.flat
+│   │   │   │   │   │   │   ├── values-nb_values-nb.arsc.flat
+│   │   │   │   │   │   │   ├── values-ne_values-ne.arsc.flat
+│   │   │   │   │   │   │   ├── values-night-v8_values-night-v8.arsc.flat
+│   │   │   │   │   │   │   ├── values-nl_values-nl.arsc.flat
+│   │   │   │   │   │   │   ├── values-or_values-or.arsc.flat
+│   │   │   │   │   │   │   ├── values-pa_values-pa.arsc.flat
+│   │   │   │   │   │   │   ├── values-pl_values-pl.arsc.flat
+│   │   │   │   │   │   │   ├── values-port_values-port.arsc.flat
+│   │   │   │   │   │   │   ├── values-pt-rBR_values-pt-rBR.arsc.flat
+│   │   │   │   │   │   │   ├── values-pt-rPT_values-pt-rPT.arsc.flat
+│   │   │   │   │   │   │   ├── values-pt_values-pt.arsc.flat
+│   │   │   │   │   │   │   ├── values-ro_values-ro.arsc.flat
+│   │   │   │   │   │   │   ├── values-ru_values-ru.arsc.flat
+│   │   │   │   │   │   │   ├── values-si_values-si.arsc.flat
+│   │   │   │   │   │   │   ├── values-sk_values-sk.arsc.flat
+│   │   │   │   │   │   │   ├── values-sl_values-sl.arsc.flat
+│   │   │   │   │   │   │   ├── values-sq_values-sq.arsc.flat
+│   │   │   │   │   │   │   ├── values-sr_values-sr.arsc.flat
+│   │   │   │   │   │   │   ├── values-sv_values-sv.arsc.flat
+│   │   │   │   │   │   │   ├── values-sw600dp-v13_values-sw600dp-v13.arsc.flat
+│   │   │   │   │   │   │   ├── values-sw_values-sw.arsc.flat
+│   │   │   │   │   │   │   ├── values-ta_values-ta.arsc.flat
+│   │   │   │   │   │   │   ├── values-te_values-te.arsc.flat
+│   │   │   │   │   │   │   ├── values-th_values-th.arsc.flat
+│   │   │   │   │   │   │   ├── values-tl_values-tl.arsc.flat
+│   │   │   │   │   │   │   ├── values-tr_values-tr.arsc.flat
+│   │   │   │   │   │   │   ├── values-uk_values-uk.arsc.flat
+│   │   │   │   │   │   │   ├── values-ur_values-ur.arsc.flat
+│   │   │   │   │   │   │   ├── values-uz_values-uz.arsc.flat
+│   │   │   │   │   │   │   ├── values-v16_values-v16.arsc.flat
+│   │   │   │   │   │   │   ├── values-v17_values-v17.arsc.flat
+│   │   │   │   │   │   │   ├── values-v18_values-v18.arsc.flat
+│   │   │   │   │   │   │   ├── values-v21_values-v21.arsc.flat
+│   │   │   │   │   │   │   ├── values-v22_values-v22.arsc.flat
+│   │   │   │   │   │   │   ├── values-v23_values-v23.arsc.flat
+│   │   │   │   │   │   │   ├── values-v24_values-v24.arsc.flat
+│   │   │   │   │   │   │   ├── values-v25_values-v25.arsc.flat
+│   │   │   │   │   │   │   ├── values-v26_values-v26.arsc.flat
+│   │   │   │   │   │   │   ├── values-v28_values-v28.arsc.flat
+│   │   │   │   │   │   │   ├── values-vi_values-vi.arsc.flat
+│   │   │   │   │   │   │   ├── values-watch-v20_values-watch-v20.arsc.flat
+│   │   │   │   │   │   │   ├── values-watch-v21_values-watch-v21.arsc.flat
+│   │   │   │   │   │   │   ├── values-xlarge-v4_values-xlarge-v4.arsc.flat
+│   │   │   │   │   │   │   ├── values-zh-rCN_values-zh-rCN.arsc.flat
+│   │   │   │   │   │   │   ├── values-zh-rHK_values-zh-rHK.arsc.flat
+│   │   │   │   │   │   │   ├── values-zh-rTW_values-zh-rTW.arsc.flat
+│   │   │   │   │   │   │   ├── values-zu_values-zu.arsc.flat
+│   │   │   │   │   │   │   ├── values_values.arsc.flat
+│   │   │   │   │   │   │   ├── xml_backup_rules.xml.flat
+│   │   │   │   │   │   │   ├── xml_data_extraction_rules.xml.flat
+│   │   │   │   │   │   │   └── xml_widgettoday_info.xml.flat
+│   │   │   │   ├── merged_res_blame_folder/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mergeDebugResources/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   │   │   │   │   ├── multi-v2/
+│   │   │   │   │   │   │   │   │   ├── mergeDebugResources.json
+│   │   │   │   │   │   │   │   │   ├── values-af.json
+│   │   │   │   │   │   │   │   │   ├── values-am.json
+│   │   │   │   │   │   │   │   │   ├── values-ar.json
+│   │   │   │   │   │   │   │   │   ├── values-as.json
+│   │   │   │   │   │   │   │   │   ├── values-az.json
+│   │   │   │   │   │   │   │   │   ├── values-b+sr+Latn.json
+│   │   │   │   │   │   │   │   │   ├── values-be.json
+│   │   │   │   │   │   │   │   │   ├── values-bg.json
+│   │   │   │   │   │   │   │   │   ├── values-bn.json
+│   │   │   │   │   │   │   │   │   ├── values-bs.json
+│   │   │   │   │   │   │   │   │   ├── values-ca.json
+│   │   │   │   │   │   │   │   │   ├── values-cs.json
+│   │   │   │   │   │   │   │   │   ├── values-da.json
+│   │   │   │   │   │   │   │   │   ├── values-de.json
+│   │   │   │   │   │   │   │   │   ├── values-el.json
+│   │   │   │   │   │   │   │   │   ├── values-en-rAU.json
+│   │   │   │   │   │   │   │   │   ├── values-en-rCA.json
+│   │   │   │   │   │   │   │   │   ├── values-en-rGB.json
+│   │   │   │   │   │   │   │   │   ├── values-en-rIN.json
+│   │   │   │   │   │   │   │   │   ├── values-en-rXC.json
+│   │   │   │   │   │   │   │   │   ├── values-es-rUS.json
+│   │   │   │   │   │   │   │   │   ├── values-es.json
+│   │   │   │   │   │   │   │   │   ├── values-et.json
+│   │   │   │   │   │   │   │   │   ├── values-eu.json
+│   │   │   │   │   │   │   │   │   ├── values-fa.json
+│   │   │   │   │   │   │   │   │   ├── values-fi.json
+│   │   │   │   │   │   │   │   │   ├── values-fr-rCA.json
+│   │   │   │   │   │   │   │   │   ├── values-fr.json
+│   │   │   │   │   │   │   │   │   ├── values-gl.json
+│   │   │   │   │   │   │   │   │   ├── values-gu.json
+│   │   │   │   │   │   │   │   │   ├── values-h720dp-v13.json
+│   │   │   │   │   │   │   │   │   ├── values-hdpi-v4.json
+│   │   │   │   │   │   │   │   │   ├── values-hi.json
+│   │   │   │   │   │   │   │   │   ├── values-hr.json
+│   │   │   │   │   │   │   │   │   ├── values-hu.json
+│   │   │   │   │   │   │   │   │   ├── values-hy.json
+│   │   │   │   │   │   │   │   │   ├── values-in.json
+│   │   │   │   │   │   │   │   │   ├── values-is.json
+│   │   │   │   │   │   │   │   │   ├── values-it.json
+│   │   │   │   │   │   │   │   │   ├── values-iw.json
+│   │   │   │   │   │   │   │   │   ├── values-ja.json
+│   │   │   │   │   │   │   │   │   ├── values-ka.json
+│   │   │   │   │   │   │   │   │   ├── values-kk.json
+│   │   │   │   │   │   │   │   │   ├── values-km.json
+│   │   │   │   │   │   │   │   │   ├── values-kn.json
+│   │   │   │   │   │   │   │   │   ├── values-ko.json
+│   │   │   │   │   │   │   │   │   ├── values-ky.json
+│   │   │   │   │   │   │   │   │   ├── values-land.json
+│   │   │   │   │   │   │   │   │   ├── values-large-v4.json
+│   │   │   │   │   │   │   │   │   ├── values-ldltr-v21.json
+│   │   │   │   │   │   │   │   │   ├── values-lo.json
+│   │   │   │   │   │   │   │   │   ├── values-lt.json
+│   │   │   │   │   │   │   │   │   ├── values-lv.json
+│   │   │   │   │   │   │   │   │   ├── values-mk.json
+│   │   │   │   │   │   │   │   │   ├── values-ml.json
+│   │   │   │   │   │   │   │   │   ├── values-mn.json
+│   │   │   │   │   │   │   │   │   ├── values-mr.json
+│   │   │   │   │   │   │   │   │   ├── values-ms.json
+│   │   │   │   │   │   │   │   │   ├── values-my.json
+│   │   │   │   │   │   │   │   │   ├── values-nb.json
+│   │   │   │   │   │   │   │   │   ├── values-ne.json
+│   │   │   │   │   │   │   │   │   ├── values-night-v8.json
+│   │   │   │   │   │   │   │   │   ├── values-nl.json
+│   │   │   │   │   │   │   │   │   ├── values-or.json
+│   │   │   │   │   │   │   │   │   ├── values-pa.json
+│   │   │   │   │   │   │   │   │   ├── values-pl.json
+│   │   │   │   │   │   │   │   │   ├── values-port.json
+│   │   │   │   │   │   │   │   │   ├── values-pt-rBR.json
+│   │   │   │   │   │   │   │   │   ├── values-pt-rPT.json
+│   │   │   │   │   │   │   │   │   ├── values-pt.json
+│   │   │   │   │   │   │   │   │   ├── values-ro.json
+│   │   │   │   │   │   │   │   │   ├── values-ru.json
+│   │   │   │   │   │   │   │   │   ├── values-si.json
+│   │   │   │   │   │   │   │   │   ├── values-sk.json
+│   │   │   │   │   │   │   │   │   ├── values-sl.json
+│   │   │   │   │   │   │   │   │   ├── values-sq.json
+│   │   │   │   │   │   │   │   │   ├── values-sr.json
+│   │   │   │   │   │   │   │   │   ├── values-sv.json
+│   │   │   │   │   │   │   │   │   ├── values-sw.json
+│   │   │   │   │   │   │   │   │   ├── values-sw600dp-v13.json
+│   │   │   │   │   │   │   │   │   ├── values-ta.json
+│   │   │   │   │   │   │   │   │   ├── values-te.json
+│   │   │   │   │   │   │   │   │   ├── values-th.json
+│   │   │   │   │   │   │   │   │   ├── values-tl.json
+│   │   │   │   │   │   │   │   │   ├── values-tr.json
+│   │   │   │   │   │   │   │   │   ├── values-uk.json
+│   │   │   │   │   │   │   │   │   ├── values-ur.json
+│   │   │   │   │   │   │   │   │   ├── values-uz.json
+│   │   │   │   │   │   │   │   │   ├── values-v16.json
+│   │   │   │   │   │   │   │   │   ├── values-v17.json
+│   │   │   │   │   │   │   │   │   ├── values-v18.json
+│   │   │   │   │   │   │   │   │   ├── values-v21.json
+│   │   │   │   │   │   │   │   │   ├── values-v22.json
+│   │   │   │   │   │   │   │   │   ├── values-v23.json
+│   │   │   │   │   │   │   │   │   ├── values-v24.json
+│   │   │   │   │   │   │   │   │   ├── values-v25.json
+│   │   │   │   │   │   │   │   │   ├── values-v26.json
+│   │   │   │   │   │   │   │   │   ├── values-v28.json
+│   │   │   │   │   │   │   │   │   ├── values-vi.json
+│   │   │   │   │   │   │   │   │   ├── values-watch-v20.json
+│   │   │   │   │   │   │   │   │   ├── values-watch-v21.json
+│   │   │   │   │   │   │   │   │   ├── values-xlarge-v4.json
+│   │   │   │   │   │   │   │   │   ├── values-zh-rCN.json
+│   │   │   │   │   │   │   │   │   ├── values-zh-rHK.json
+│   │   │   │   │   │   │   │   │   ├── values-zh-rTW.json
+│   │   │   │   │   │   │   │   │   ├── values-zu.json
+│   │   │   │   │   │   │   │   │   └── values.json
+│   │   │   │   │   │   │   │   ├── single/
+│   │   │   │   │   │   │   │   │   └── mergeDebugResources.json
+│   │   │   │   ├── merged_shaders/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mergeDebugShaders/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   ├── merged_startup_profile/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mergeDebugStartupProfile/
+│   │   │   │   ├── mixed_scope_dex_archive/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── dexBuilderDebug/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   ├── navigation_json/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── extractDeepLinksDebug/
+│   │   │   │   │   │   │   └── navigation.json
+│   │   │   │   ├── nested_resources_validation_report/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── generateDebugResources/
+│   │   │   │   │   │   │   └── nestedResourcesValidationReport.txt
+│   │   │   │   ├── packaged_manifests/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── processDebugManifestForPackage/
+│   │   │   │   │   │   │   ├── AndroidManifest.xml
+│   │   │   │   │   │   │   └── output-metadata.json
+│   │   │   │   ├── packaged_res/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── packageDebugResources/
+│   │   │   │   │   │   │   ├── drawable/
+│   │   │   │   │   │   │   │   └── ic_launcher_background.xml
+│   │   │   │   │   │   │   ├── drawable-v24/
+│   │   │   │   │   │   │   │   └── ic_launcher_foreground.xml
+│   │   │   │   │   │   │   ├── layout/
+│   │   │   │   │   │   │   │   ├── activity_settings.xml
+│   │   │   │   │   │   │   │   ├── dialog_color_picker.xml
+│   │   │   │   │   │   │   │   └── widget_layout.xml
+│   │   │   │   │   │   │   ├── mipmap-anydpi-v26/
+│   │   │   │   │   │   │   │   ├── ic_launcher.xml
+│   │   │   │   │   │   │   │   └── ic_launcher_round.xml
+│   │   │   │   │   │   │   ├── mipmap-hdpi-v4/
+│   │   │   │   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   │   │   │   └── ic_launcher_round.webp
+│   │   │   │   │   │   │   ├── mipmap-mdpi-v4/
+│   │   │   │   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   │   │   │   └── ic_launcher_round.webp
+│   │   │   │   │   │   │   ├── mipmap-xhdpi-v4/
+│   │   │   │   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   │   │   │   └── ic_launcher_round.webp
+│   │   │   │   │   │   │   ├── mipmap-xxhdpi-v4/
+│   │   │   │   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   │   │   │   └── ic_launcher_round.webp
+│   │   │   │   │   │   │   ├── mipmap-xxxhdpi-v4/
+│   │   │   │   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   │   │   │   └── ic_launcher_round.webp
+│   │   │   │   │   │   │   ├── values/
+│   │   │   │   │   │   │   │   └── values.xml
+│   │   │   │   │   │   │   ├── xml/
+│   │   │   │   │   │   │   │   ├── backup_rules.xml
+│   │   │   │   │   │   │   │   ├── data_extraction_rules.xml
+│   │   │   │   │   │   │   │   └── widgettoday_info.xml
+│   │   │   │   ├── processed_res/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── processDebugResources/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   │   │   │   │   ├── output-metadata.json
+│   │   │   │   │   │   │   │   └── resources-debug.ap_
+│   │   │   │   ├── project_dex_archive/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── dexBuilderDebug/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   │   │   │   │   ├── 09eb11513068be6d368771a430fdd381faeb7a824cd03e3765b1a4f0258b3063_0.jar
+│   │   │   │   │   │   │   │   ├── 09eb11513068be6d368771a430fdd381faeb7a824cd03e3765b1a4f0258b3063_1.jar
+│   │   │   │   │   │   │   │   ├── 09eb11513068be6d368771a430fdd381faeb7a824cd03e3765b1a4f0258b3063_2.jar
+│   │   │   │   │   │   │   │   ├── 09eb11513068be6d368771a430fdd381faeb7a824cd03e3765b1a4f0258b3063_3.jar
+│   │   │   │   │   │   │   │   ├── 09eb11513068be6d368771a430fdd381faeb7a824cd03e3765b1a4f0258b3063_4.jar
+│   │   │   │   │   │   │   │   ├── 09eb11513068be6d368771a430fdd381faeb7a824cd03e3765b1a4f0258b3063_5.jar
+│   │   │   │   │   │   │   │   ├── 09eb11513068be6d368771a430fdd381faeb7a824cd03e3765b1a4f0258b3063_6.jar
+│   │   │   │   │   │   │   │   ├── 09eb11513068be6d368771a430fdd381faeb7a824cd03e3765b1a4f0258b3063_7.jar
+│   │   │   │   │   │   │   │   ├── com/
+│   │   │   │   │   │   │   │   │   ├── example/
+│   │   │   │   │   │   │   │   │   │   ├── widgettoday/
+│   │   │   │   │   │   │   │   │   │   │   ├── ComposableSingletons$MainActivityKt$lambda-1$1.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── ComposableSingletons$MainActivityKt$lambda-2$1.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── ComposableSingletons$MainActivityKt$lambda-3$1.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── ComposableSingletons$MainActivityKt$lambda-4$1.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── ComposableSingletons$MainActivityKt.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── MainActivity.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── MainActivityKt$SettingsPreview$1.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── MainActivityKt$WidgetSettings$1$1.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── MainActivityKt$WidgetSettings$2.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── MainActivityKt.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── SettingsActivity.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── WidgetToday.dex
+│   │   │   │   │   │   │   │   │   │   │   ├── ui/
+│   │   │   │   │   │   │   │   │   │   │   │   ├── theme/
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── ColorKt.dex
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── ThemeKt$WidgettodayTheme$1.dex
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── ThemeKt.dex
+│   │   │   │   │   │   │   │   │   │   │   │   │   └── TypeKt.dex
+│   │   │   │   ├── runtime_symbol_list/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── processDebugResources/
+│   │   │   │   │   │   │   └── R.txt
+│   │   │   │   ├── signing_config_versions/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── writeDebugSigningConfigVersions/
+│   │   │   │   │   │   │   └── signing-config-versions.json
+│   │   │   │   ├── source_set_path_map/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── mapDebugSourceSetPaths/
+│   │   │   │   │   │   │   └── file-map.txt
+│   │   │   │   ├── stable_resource_ids_file/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── processDebugResources/
+│   │   │   │   │   │   │   └── stableIds.txt
+│   │   │   │   ├── sub_project_dex_archive/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── dexBuilderDebug/
+│   │   │   │   │   │   │   ├── out/
+│   │   │   │   ├── symbol_list_with_package_name/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── processDebugResources/
+│   │   │   │   │   │   │   └── package-aware-r.txt
+│   │   │   │   ├── validate_signing_config/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── validateSigningDebug/
+│   │   │   ├── kotlin/
+│   │   │   │   ├── compileDebugKotlin/
+│   │   │   │   │   ├── cacheable/
+│   │   │   │   │   │   ├── last-build.bin
+│   │   │   │   │   │   ├── caches-jvm/
+│   │   │   │   │   │   │   ├── inputs/
+│   │   │   │   │   │   │   │   ├── source-to-output.tab
+│   │   │   │   │   │   │   │   ├── source-to-output.tab.keystream
+│   │   │   │   │   │   │   │   ├── source-to-output.tab.keystream.len
+│   │   │   │   │   │   │   │   ├── source-to-output.tab.len
+│   │   │   │   │   │   │   │   ├── source-to-output.tab.values.at
+│   │   │   │   │   │   │   │   ├── source-to-output.tab_i
+│   │   │   │   │   │   │   │   └── source-to-output.tab_i.len
+│   │   │   │   │   │   │   ├── jvm/
+│   │   │   │   │   │   │   │   ├── kotlin/
+│   │   │   │   │   │   │   │   │   ├── class-attributes.tab
+│   │   │   │   │   │   │   │   │   ├── class-attributes.tab.keystream
+│   │   │   │   │   │   │   │   │   ├── class-attributes.tab.keystream.len
+│   │   │   │   │   │   │   │   │   ├── class-attributes.tab.len
+│   │   │   │   │   │   │   │   │   ├── class-attributes.tab.values.at
+│   │   │   │   │   │   │   │   │   ├── class-attributes.tab_i
+│   │   │   │   │   │   │   │   │   ├── class-attributes.tab_i.len
+│   │   │   │   │   │   │   │   │   ├── class-fq-name-to-source.tab
+│   │   │   │   │   │   │   │   │   ├── class-fq-name-to-source.tab.keystream
+│   │   │   │   │   │   │   │   │   ├── class-fq-name-to-source.tab.keystream.len
+│   │   │   │   │   │   │   │   │   ├── class-fq-name-to-source.tab.len
+│   │   │   │   │   │   │   │   │   ├── class-fq-name-to-source.tab.values.at
+│   │   │   │   │   │   │   │   │   ├── class-fq-name-to-source.tab_i
+│   │   │   │   │   │   │   │   │   ├── class-fq-name-to-source.tab_i.len
+│   │   │   │   │   │   │   │   │   ├── internal-name-to-source.tab
+│   │   │   │   │   │   │   │   │   ├── internal-name-to-source.tab.keystream
+│   │   │   │   │   │   │   │   │   ├── internal-name-to-source.tab.keystream.len
+│   │   │   │   │   │   │   │   │   ├── internal-name-to-source.tab.len
+│   │   │   │   │   │   │   │   │   ├── internal-name-to-source.tab.values.at
+│   │   │   │   │   │   │   │   │   ├── internal-name-to-source.tab_i
+│   │   │   │   │   │   │   │   │   ├── internal-name-to-source.tab_i.len
+│   │   │   │   │   │   │   │   │   ├── java-sources-proto-map.tab
+│   │   │   │   │   │   │   │   │   ├── java-sources-proto-map.tab.keystream
+│   │   │   │   │   │   │   │   │   ├── java-sources-proto-map.tab.keystream.len
+│   │   │   │   │   │   │   │   │   ├── java-sources-proto-map.tab.len
+│   │   │   │   │   │   │   │   │   ├── java-sources-proto-map.tab.values.at
+│   │   │   │   │   │   │   │   │   ├── java-sources-proto-map.tab_i
+│   │   │   │   │   │   │   │   │   ├── java-sources-proto-map.tab_i.len
+│   │   │   │   │   │   │   │   │   ├── package-parts.tab
+│   │   │   │   │   │   │   │   │   ├── package-parts.tab.keystream
+│   │   │   │   │   │   │   │   │   ├── package-parts.tab.keystream.len
+│   │   │   │   │   │   │   │   │   ├── package-parts.tab.len
+│   │   │   │   │   │   │   │   │   ├── package-parts.tab.values.at
+│   │   │   │   │   │   │   │   │   ├── package-parts.tab_i
+│   │   │   │   │   │   │   │   │   ├── package-parts.tab_i.len
+│   │   │   │   │   │   │   │   │   ├── proto.tab
+│   │   │   │   │   │   │   │   │   ├── proto.tab.keystream
+│   │   │   │   │   │   │   │   │   ├── proto.tab.keystream.len
+│   │   │   │   │   │   │   │   │   ├── proto.tab.len
+│   │   │   │   │   │   │   │   │   ├── proto.tab.values.at
+│   │   │   │   │   │   │   │   │   ├── proto.tab_i
+│   │   │   │   │   │   │   │   │   ├── proto.tab_i.len
+│   │   │   │   │   │   │   │   │   ├── source-to-classes.tab
+│   │   │   │   │   │   │   │   │   ├── source-to-classes.tab.keystream
+│   │   │   │   │   │   │   │   │   ├── source-to-classes.tab.keystream.len
+│   │   │   │   │   │   │   │   │   ├── source-to-classes.tab.len
+│   │   │   │   │   │   │   │   │   ├── source-to-classes.tab.values.at
+│   │   │   │   │   │   │   │   │   ├── source-to-classes.tab_i
+│   │   │   │   │   │   │   │   │   ├── source-to-classes.tab_i.len
+│   │   │   │   │   │   │   │   │   ├── subtypes.tab
+│   │   │   │   │   │   │   │   │   ├── subtypes.tab.keystream
+│   │   │   │   │   │   │   │   │   ├── subtypes.tab.keystream.len
+│   │   │   │   │   │   │   │   │   ├── subtypes.tab.len
+│   │   │   │   │   │   │   │   │   ├── subtypes.tab.values.at
+│   │   │   │   │   │   │   │   │   ├── subtypes.tab_i
+│   │   │   │   │   │   │   │   │   ├── subtypes.tab_i.len
+│   │   │   │   │   │   │   │   │   ├── supertypes.tab
+│   │   │   │   │   │   │   │   │   ├── supertypes.tab.keystream
+│   │   │   │   │   │   │   │   │   ├── supertypes.tab.keystream.len
+│   │   │   │   │   │   │   │   │   ├── supertypes.tab.len
+│   │   │   │   │   │   │   │   │   ├── supertypes.tab.values.at
+│   │   │   │   │   │   │   │   │   ├── supertypes.tab_i
+│   │   │   │   │   │   │   │   │   └── supertypes.tab_i.len
+│   │   │   │   │   │   │   ├── lookups/
+│   │   │   │   │   │   │   │   ├── counters.tab
+│   │   │   │   │   │   │   │   ├── file-to-id.tab
+│   │   │   │   │   │   │   │   ├── file-to-id.tab.keystream
+│   │   │   │   │   │   │   │   ├── file-to-id.tab.keystream.len
+│   │   │   │   │   │   │   │   ├── file-to-id.tab.len
+│   │   │   │   │   │   │   │   ├── file-to-id.tab.values.at
+│   │   │   │   │   │   │   │   ├── file-to-id.tab_i
+│   │   │   │   │   │   │   │   ├── file-to-id.tab_i.len
+│   │   │   │   │   │   │   │   ├── id-to-file.tab
+│   │   │   │   │   │   │   │   ├── id-to-file.tab.keystream
+│   │   │   │   │   │   │   │   ├── id-to-file.tab.keystream.len
+│   │   │   │   │   │   │   │   ├── id-to-file.tab.len
+│   │   │   │   │   │   │   │   ├── id-to-file.tab.values.at
+│   │   │   │   │   │   │   │   ├── id-to-file.tab_i
+│   │   │   │   │   │   │   │   ├── id-to-file.tab_i.len
+│   │   │   │   │   │   │   │   ├── lookups.tab
+│   │   │   │   │   │   │   │   ├── lookups.tab.keystream
+│   │   │   │   │   │   │   │   ├── lookups.tab.keystream.len
+│   │   │   │   │   │   │   │   ├── lookups.tab.len
+│   │   │   │   │   │   │   │   ├── lookups.tab.values.at
+│   │   │   │   │   │   │   │   ├── lookups.tab_i
+│   │   │   │   │   │   │   │   └── lookups.tab_i.len
+│   │   │   │   │   ├── classpath-snapshot/
+│   │   │   │   │   │   └── shrunk-classpath-snapshot.bin
+│   │   │   │   │   ├── local-state/
+│   │   │   │   │   │   └── build-history.bin
+│   │   │   ├── outputs/
+│   │   │   │   ├── logs/
+│   │   │   │   │   └── manifest-merger-debug-report.txt
+│   │   │   ├── snapshot/
+│   │   │   │   ├── kotlin/
+│   │   │   ├── tmp/
+│   │   │   │   ├── compileDebugJavaWithJavac/
+│   │   │   │   │   ├── previous-compilation-data.bin
+│   │   │   │   │   ├── compileTransaction/
+│   │   │   │   │   │   ├── backup-dir/
+│   │   │   │   │   │   ├── stash-dir/
+│   │   │   │   ├── kotlin-classes/
+│   │   │   │   │   ├── debug/
+│   │   │   │   │   │   ├── com/
+│   │   │   │   │   │   │   ├── example/
+│   │   │   │   │   │   │   │   ├── widgettoday/
+│   │   │   │   │   │   │   │   │   ├── ComposableSingletons$MainActivityKt$lambda-1$1.class
+│   │   │   │   │   │   │   │   │   ├── ComposableSingletons$MainActivityKt$lambda-2$1.class
+│   │   │   │   │   │   │   │   │   ├── ComposableSingletons$MainActivityKt$lambda-3$1.class
+│   │   │   │   │   │   │   │   │   ├── ComposableSingletons$MainActivityKt$lambda-4$1.class
+│   │   │   │   │   │   │   │   │   ├── ComposableSingletons$MainActivityKt.class
+│   │   │   │   │   │   │   │   │   ├── MainActivity.class
+│   │   │   │   │   │   │   │   │   ├── MainActivityKt$SettingsPreview$1.class
+│   │   │   │   │   │   │   │   │   ├── MainActivityKt$WidgetSettings$1$1.class
+│   │   │   │   │   │   │   │   │   ├── MainActivityKt$WidgetSettings$2.class
+│   │   │   │   │   │   │   │   │   ├── MainActivityKt.class
+│   │   │   │   │   │   │   │   │   ├── SettingsActivity.class
+│   │   │   │   │   │   │   │   │   ├── ui/
+│   │   │   │   │   │   │   │   │   │   ├── theme/
+│   │   │   │   │   │   │   │   │   │   │   ├── ColorKt.class
+│   │   │   │   │   │   │   │   │   │   │   ├── ThemeKt$WidgettodayTheme$1.class
+│   │   │   │   │   │   │   │   │   │   │   ├── ThemeKt.class
+│   │   │   │   │   │   │   │   │   │   │   └── TypeKt.class
+│   │   │   │   │   │   ├── META-INF/
+│   │   │   │   │   │   │   └── app_debug.kotlin_module
+│   │   ├── src/
+│   │   │   ├── androidTest/
+│   │   │   │   ├── java/
+│   │   │   │   │   ├── com/
+│   │   │   │   │   │   ├── example/
+│   │   │   │   │   │   │   ├── widgettoday/
+│   │   │   │   │   │   │   │   └── ExampleInstrumentedTest.kt
+│   │   │   ├── main/
+│   │   │   │   ├── AndroidManifest.xml
+│   │   │   │   ├── java/
+│   │   │   │   │   ├── com/
+│   │   │   │   │   │   ├── example/
+│   │   │   │   │   │   │   ├── widgettoday/
+│   │   │   │   │   │   │   │   ├── MainActivity.kt
+│   │   │   │   │   │   │   │   ├── SettingsActivity.kt
+│   │   │   │   │   │   │   │   ├── WidgetToday.java
+│   │   │   │   │   │   │   │   ├── ui/
+│   │   │   │   │   │   │   │   │   ├── theme/
+│   │   │   │   │   │   │   │   │   │   ├── Color.kt
+│   │   │   │   │   │   │   │   │   │   ├── Theme.kt
+│   │   │   │   │   │   │   │   │   │   └── Type.kt
+│   │   │   │   ├── res/
+│   │   │   │   │   ├── drawable/
+│   │   │   │   │   │   └── ic_launcher_background.xml
+│   │   │   │   │   ├── drawable-v24/
+│   │   │   │   │   │   └── ic_launcher_foreground.xml
+│   │   │   │   │   ├── layout/
+│   │   │   │   │   │   ├── activity_settings.xml
+│   │   │   │   │   │   ├── dialog_color_picker.xml
+│   │   │   │   │   │   └── widget_layout.xml
+│   │   │   │   │   ├── mipmap-anydpi-v26/
+│   │   │   │   │   │   ├── ic_launcher.xml
+│   │   │   │   │   │   └── ic_launcher_round.xml
+│   │   │   │   │   ├── mipmap-hdpi/
+│   │   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   │   └── ic_launcher_round.webp
+│   │   │   │   │   ├── mipmap-mdpi/
+│   │   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   │   └── ic_launcher_round.webp
+│   │   │   │   │   ├── mipmap-xhdpi/
+│   │   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   │   └── ic_launcher_round.webp
+│   │   │   │   │   ├── mipmap-xxhdpi/
+│   │   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   │   └── ic_launcher_round.webp
+│   │   │   │   │   ├── mipmap-xxxhdpi/
+│   │   │   │   │   │   ├── ic_launcher.webp
+│   │   │   │   │   │   └── ic_launcher_round.webp
+│   │   │   │   │   ├── values/
+│   │   │   │   │   │   ├── colors.xml
+│   │   │   │   │   │   ├── strings.xml
+│   │   │   │   │   │   └── themes.xml
+│   │   │   │   │   ├── xml/
+│   │   │   │   │   │   ├── backup_rules.xml
+│   │   │   │   │   │   ├── data_extraction_rules.xml
+│   │   │   │   │   │   └── widgettoday_info.xml
+│   │   │   ├── test/
+│   │   │   │   ├── java/
+│   │   │   │   │   ├── com/
+│   │   │   │   │   │   ├── example/
+│   │   │   │   │   │   │   ├── widgettoday/
+│   │   │   │   │   │   │   │   └── ExampleUnitTest.kt
+│   ├── gradle/
+│   │   ├── libs.versions.toml
+│   │   ├── wrapper/
+│   │   │   ├── gradle-wrapper.jar
+│   │   │   └── gradle-wrapper.properties

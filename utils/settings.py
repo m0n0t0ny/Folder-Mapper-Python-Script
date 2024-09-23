@@ -2,7 +2,7 @@ import json
 import os
 import logging
 
-SETTINGS_FILE = "fmg_settings.json"
+SETTINGS_FILE = "folder_mapper_settings.json"
 
 
 def load_settings():
