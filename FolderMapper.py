@@ -7,6 +7,10 @@ from ui.main_window import FolderMapper
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
+if sys.platform == "win32":
+    import ctypes
+
+    ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
 
 def setup_logging(log_file="folder_mapper_log.log"):
     logging.basicConfig(
