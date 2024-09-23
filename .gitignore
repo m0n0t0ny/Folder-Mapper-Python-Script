@@ -19,7 +19,7 @@ __init__.py
 ./fmg_settings.json
 
 # FMG Generated Folder Maps
-./FMG - Mapped Folders/*
+./Mapped Folders/*
 
 # Other
-./desktop.ini
+desktop.ini
